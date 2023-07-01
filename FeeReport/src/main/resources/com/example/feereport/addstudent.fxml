@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="463.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.feereport.Accountant">
+   <children>
+      <Text layoutX="50.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="50.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="48.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fees Paid">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="48.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nameField" layoutX="71.0" layoutY="57.0" prefHeight="25.0" prefWidth="209.0" />
+      <TextField fx:id="emailField" layoutX="71.0" layoutY="126.0" prefHeight="25.0" prefWidth="209.0" />
+      <TextField fx:id="courseField" layoutX="71.0" layoutY="207.0" prefHeight="25.0" prefWidth="209.0" />
+      <TextField fx:id="paidField" layoutX="71.0" layoutY="284.0" prefHeight="25.0" prefWidth="209.0" />
+      <TextField fx:id="phoneField" layoutX="69.0" layoutY="353.0" prefHeight="25.0" prefWidth="209.0" />
+      <Button layoutX="136.0" layoutY="403.0" mnemonicParsing="false" onAction="#Regiser" style="-fx-background-color: #004dff;" text="Register" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="421.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #ff8c00;" text="Back" textFill="WHITE" />
+   </children>
+</AnchorPane>

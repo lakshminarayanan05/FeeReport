@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="419.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.feereport.Accountant">
+   <children>
+      <Text layoutX="52.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Email">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="54.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="54.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount Pay ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="paynameField" layoutX="77.0" layoutY="61.0" prefHeight="25.0" prefWidth="205.0" promptText="name" />
+      <TextField fx:id="payemailField" layoutX="81.0" layoutY="138.0" prefHeight="25.0" prefWidth="205.0" promptText="email" />
+      <TextField fx:id="paycourseField" layoutX="81.0" layoutY="219.0" prefHeight="25.0" prefWidth="205.0" promptText="eg:java" />
+      <TextField fx:id="paypaidField" layoutX="83.0" layoutY="293.0" prefHeight="25.0" prefWidth="205.0" promptText="rupees in numbers" />
+      <Button layoutX="115.0" layoutY="342.0" mnemonicParsing="false" onAction="#MakeaPayment" style="-fx-background-color: #00b1ff;" text="Make a Payment" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="28.0" layoutY="372.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #ff7700;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

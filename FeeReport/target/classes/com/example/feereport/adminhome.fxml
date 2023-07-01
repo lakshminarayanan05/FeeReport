@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="370.0" prefWidth="569.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.feereport.Admin">
+   <children>
+      <Button layoutX="81.0" layoutY="82.0" mnemonicParsing="false" onAction="#addaccountant" prefHeight="51.0" prefWidth="407.0" text="Add Accountants">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="185.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="407.0" text="View Accountants">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="240.0" layoutY="291.0" mnemonicParsing="false" onAction="#logout" text="Log out">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
